@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+    background: #16122e;
+    box-sizing: border-box;
+}
+
+/* --------------------------- MENU NAV ------------------------------ */
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 6px;
+    background-color: #1e193d;
+}
+
+#p-nav {
+    margin: auto;
+    color: white;
+    width: 120px;
+    padding: 6px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    padding: 50px, 15px;
+}
+
+#btn-search {
+    border: 1px solid #F2A30F;
+    color: #F2A30F;
+    transition: 0.3s ease;
+}
+
+#btn-search:hover,
+#p-nav:hover {
+    background-color: #F2A30F;
+    color: black;
+}
+
+@media screen and (max-width: 991px) {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
+
+/* --------------------------- LISTA ------------------------------ */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: #1e193d;
+    border-color: black;
+}
+
+.fotojog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 12px;
+    border-color: black;
+    background-size: cover;
+}
+
+.nomejog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 100px;
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: white;
+    border-color: black;
+}
+
+@media (max-width: 720px) {
+    .list {
+        max-width: 400px;
+    }
+
+    .nomejog {
+        margin-left: 0;
+        width: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .list {
+        max-width: 300px;
+    }
+
+    .nomejog {
+        margin-left: 0;
+        width: 150px;
+    }
+}
+
+/* --------------------------- FOOTER ------------------------------ */
+.plataformas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empresa {
+    color: #F2A30F;
+    font-size: 50px;
+}
+
+.mais-info {
+    color: white;
+    margin-top: 15px;
+}
+
+.direitos {
+    color: white;
+    margin-top: 30px;
+}

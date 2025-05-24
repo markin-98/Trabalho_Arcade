@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="comunidade.css">    
+    <script>
+        $(function () {
+            $("#tagCabecalho").load("/ARCADE/cabecalho.html");
+            $("#tagFooter").load("/ARCADE/rodape.html");
+        });
+    </script>
+    <title>Home</title>
+</head>
+
+<body>
+<!-- inicio header -->
+    <nav id="tagCabecalho"></nav>
+    <!--modal para barra de pesquisa-->
+    <div class="modal" tabindex="-1" id="modal-pesquisa">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <p id="modal-header"></p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="#">Ir para página do jogo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- fim header -->
+
+<!-- inicio tela -->
+    <div id="container-fluid">
+        <div class="row">
+            <div class="col-12" id="div-upload">               
+                <label class="picture" for="picture__input" tabIndex="0">
+                    <span class="picture__image"></span>
+                </label>                  
+                <input type="file" name="picture__input" id="picture__input">
+                <h4>Escolha uma captura de tela para compartilhar com a comunidade!</h4>
+            </div>
+        </div>
+    </div>      
+    <div id="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="container-card">                    
+                    <div class="card">
+                        <img src="https://1.bp.blogspot.com/-Iar_1KDOCts/YDr7dnNQvlI/AAAAAAAA6AM/In_H-e2rzXg3o4jweu7TLmbDOLXJSGsYwCLcBGAsYHQ/w640-h360/Halo-Infinite-2021-sniper-rifle-screenshot.webp" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user699</span></p>
+                            <p class="card-text"><span id="game">Halo Infinite</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://selectgame.gamehall.com.br/wp-content/uploads/2021/11/Shadow-of-The-Tomb-Raider-PC-Screenshot-1600x900.webp" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user177</span></p>
+                            <p class="card-text"><span id="game">Shadow of The Tomb Raider</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://pt.jugomobile.com/wp-content/uploads/2022/06/Escape-from-Tarkov-Arena-e-uma-versao-independente-semelhante-a.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user522</span></p>
+                            <p class="card-text"><span id="game">Escape from Tarkov</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.mos.cms.futurecdn.net/aQZgMnhpbVg2zZ85fmFM2S-970-80.jpg.webp" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user412</span></p>
+                            <p class="card-text"><span id="game">Far Cry 5</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://tokyorio.com/wp-content/uploads/2014/03/captura-de-tela-2014-03-18-c3a0s-19-52-42.jpg?w=640" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user320</span></p>
+                            <p class="card-text"><span id="game">Minecraft</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="http://s01.riotpixels.net/data/00/6c/006cd6d3-d480-4b48-8fe3-e1dea6995c89.jpg/screenshot.black-desert-online.1920x1080.2019-08-22.415.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user724</span></p>
+                            <p class="card-text"><span id="game">Black Desert</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://assetsio.reedpopcdn.com/s.t.a.l.k.e.r.-2-image-3.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user922</span></p>
+                            <p class="card-text"><span id="game">S.T.A.L.K.E.R 2s</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://www.videogameschronicle.com/files/2020/03/09-03-2020_22-08-36-2ubntby3-scaled.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-title"><span class="badge" id="username">@user1012</span></p>
+                            <p class="card-text"><span id="game">Ori and the Will of the Wisps</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- fim tela -->
+
+<!-- inicio footer -->
+    <footer id="tagFooter"></footer>
+<!-- fim footer -->
+
+<script src="comunidade.js"></script>
+
+</body>
+
+</html>

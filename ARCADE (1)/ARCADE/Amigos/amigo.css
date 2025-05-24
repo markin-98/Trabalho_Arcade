@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    background-color: #120F26;
+}
+
+/* MENU NAV */
+.nav-item {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 6px;
+    background-color: #1e193d;
+}
+
+#p-nav {
+    margin: auto;
+    color: white;
+    width: 120px;
+    padding: 6px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-search {
+    border: 1px solid #F2A30F;
+    color: #F2A30F;
+    transition: 0.3s ease;
+}
+
+#btn-search:hover,
+#p-nav:hover {
+    background-color: #F2A30F;
+    color: black;
+}
+
+/* FOOTER */
+.tagFooter{
+    margin-bottom: -10000px;
+}
+
+.plataformas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empresa {
+    color: #F2A30F;
+    font-size: 50px;
+}
+
+.mais-info {
+    color: white;
+    margin-top: 15px;
+}
+
+.direitos {
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+.list-group-item {
+    background-color: #1E193D;
+    
+}
+
+.card {
+    margin: 20px;
+    background-color: #1E193D;
+    display: flex;
+    justify-content: center;
+    width: 50%; /* Alterado para porcentagem */
+    border-radius: 10px;
+    flex-direction: column;
+    
+}
+
+.cartão-header {
+    background-color: #1E193D;
+    color: #FF9F00;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+}
+.list-group-item{
+    color: #fff;
+    
+}
+.list-group{
+    color: #fff;
+    border-radius: 10px;    
+}
+.list-group-flush {
+    background-color: #1E193D;
+    color: #fff; /* Cor alterada para melhor legibilidade */
+    
+}
+
+
+
+
+
+
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    background-color: #1E193D;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-top: -1520px
+  }
+  
+  .online {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .offline {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+
+
+
+
+
+
+  #cardzin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: -800px;
+    
+    
+}
+
+.list-group {
+    text-align: center;
+}
+h2{
+  color: #FF9F00; 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px){
+    .card{
+        width: 85%;
+       
+         
+    }
+    #canteinerr{
+        flex-direction: column;
+        display: none;
+    }
+    
+}
+@media (max-width: 1200px) {
+    .card {
+        width: 70%;
+        margin: auto;
+     }
+     .USUARIOSSS{
+        width: 70%;
+        margin:  0;
+        margin-bottom: 10px;
+     }
+    
+     
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+    .USUARIOSSS{
+        width: 80%;
+        margin:  0;
+        margin-bottom: 10px;
+     }
+    
+     
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+    .USUARIOSSS{
+        width: 90%;
+        margin:  0;
+        margin-bottom: 10px;
+     }
+    
+    /* Adicionado para centralizar o card em telas menores */
+    .card {
+        margin: 20px auto;
+        margin: auto;
+    }
+    .USUARIOSSS{
+        margin: 20px auto;
+        margin-bottom: 10px;
+     }
+     
+     
+}
